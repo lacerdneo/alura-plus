@@ -224,7 +224,7 @@ body {
     margin-bottom: 0.8em;
 }
 .rodape__links a:hover {
-    color: var(--azul-botao);
+    color: var(--verde-cintilante);
 }
 
 .rodape__links a:active {
