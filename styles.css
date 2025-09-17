@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+    --branco-principal: #FFFFFF;
+    --cinza-secundario: #C0C0C0;
+    --azul-botao: #167BF7;
+    --cor-de-fundo: #00030C;
+    --fonte-principal: 'Inter';
+    --preto--efeito: #000000;
+    --vermelho-efeito:#EC2F46;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.principal {
+    background-image: url("/assets/background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns:  50% 50%; 
+}
+
+.container__titulo {
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.container__imagem {
+    margin: 2em 0em 2em 0em;
+}
+
+.container__conteudo {
+    margin: 7em;
+    max-width: 80%;
+}
+
+.container__botao {
+    background-color: var(--azul-botao);
+    border-radius: 8px;
+    padding: 1em;
+    color: var(--branco-principal);
+    display: block;
+    font-family: var(--fonte-principal);
+    text-decoration: none;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+.container__botao:hover {
+    background-color: transparent;
+    color: var(--vermelho-efeito);
+    transition: 0.3s;
+}
+
+.botao__secundario {
+    background-color: transparent;
+    padding: 1em;
+    border: 1px solid var(--branco-principal);
+    border-radius: 5px;
+    color: var(--branco-principal);
+    display: block;
+}
+
+.botao__secundario:hover {
+    border-color: transparent;
+    color: var(--vermelho-efeito);
+    transition: 0.3s;
+}
+.container__aviso {
+    color: var(--cinza-secundario);
+    font-size: 0.75em;
+}
+
+.secundario {
+    align-items: center;
+    margin: 0 15em 0 15em;
+}
+
+.telas__imagem {
+    width: 85%;
+}
+
+.descricao__titulo {
+    font-size: 56px;
+    margin-bottom: 0.2em;
+    font-weight: 700;
+}
+
+.descricao__texto {
+    font-size: 20px;
+    font-weight: 350;
+    color: var(--cinza-secundario);
+   
+}
+
+.comboplus__descricao {
+    margin-right: 2em;
+}
+
+.botao__comboplus {
+    width: 19%;
+    margin-top: 1.5em;
+    padding: 1.3em 1em ;
+    
+}
+
+.imagem__comboplus {
+    width: 90%;
+    margin-left: 3em;
+}
+
+.notebook__imagem {
+    width: 90%;
+    margin-bottom: 2em;
+}
+
+.dispositivos {
+    text-align: center;
+}
+
+.dispositivos__titulo {
+    margin-bottom: 1em;
+    font-size: 3.1em;
+}
+
+.dispositivos__lista {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
+.dispositivos__descricao {
+    font-size: 1.8em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+/* ESTILIZAÇÃO PARA A ULTIMA SEÇÃO DO SITE QUE FOI USADA DIVS E FLEXBOX
+.dispositivos {
+    height: 100%;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 15em;
+}
+
+.dispositivos__titulo {
+    font-size: 2.8em;
+    margin-top: 0.5em;
+}
+
+.container__dispositivos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 2em;
+}
+
+.container__tvs {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 1em;
+}
+
+.container__computadores {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 1em;
+    margin: 2.5em;
+}
+
+.container__celulares {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 1em;
+}
+
+.dispositivos__descricao {
+    font-size: 2em;
+    font-weight: 700;
+}
+*/
+
+.container__rodape {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+    margin-bottom: 5em;
+}
+
+.rodape__logo {
+    margin-top: 8em;
+    margin-bottom: 2.5em;
+}
+
+.rodape__links {
+    text-decoration: none;
+    color: var(--branco-principal);
+    margin-bottom: 0.8em;
+}
+.rodape__links a:hover {
+    color: var(--azul-botao);
+}
+
+.rodape__links a:active {
+    color: var(--vermelho-efeito);
+}
+
+.rodape__links__link {
+    color: var(--branco-principal);
+    text-decoration: none;
+    margin-right: 1.2em;
+}
+
+.texto__rodape {
+    color: var(--cinza-secundario);
+    font-size: 0.75em;
+    text-align: center;
+    width: 55%;
+    gap: 1em;
+    margin-bottom: 0.8em;
+}
+
+
+
+
